@@ -56,7 +56,7 @@ pytest tests/test_calculator.py
 ## Usage
 
 ```python
-from test_pyp import Calculator, greet, format_name
+from test_pyp import Calculator, greet, format_name, is_even, reverse_string
 
 # Using Calculator
 calc = Calculator()
@@ -66,6 +66,8 @@ print(calc.divide(10, 2))  # Output: 5.0
 # Using utility functions
 print(greet("World"))  # Output: Hello, World!
 print(format_name("John", "Doe"))  # Output: John Doe
+print(is_even(4))  # Output: True
+print(reverse_string("Python"))  # Output: nohtyP
 ```
 
 ## License
